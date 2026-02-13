@@ -20,8 +20,8 @@ export default defineConfig(({ command }) => {
 
       rollupOptions: {
         input: {
-          main: 'index.html',
-          favorites: 'favorites.html',
+          main: './index.html',
+          favorites: './favorites.html',
         },
 
         output: {
